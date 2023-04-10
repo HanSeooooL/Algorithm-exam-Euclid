@@ -5,10 +5,12 @@
 //  Created by 한설 on 2023/04/06.
 //
 
-#include <stdio.h>
+#include "euclid.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    TC_euclid();
+    
     return 0;
 }
+

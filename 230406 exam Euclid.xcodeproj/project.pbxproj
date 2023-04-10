@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A4BB6E6629DE5AD1007B4902 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB6E6529DE5AD1007B4902 /* main.c */; };
+		A4BB6E6E29DE5B00007B4902 /* euclid.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB6E6D29DE5B00007B4902 /* euclid.c */; };
+		A4BB6E7029DE5B12007B4902 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB6E6F29DE5B12007B4902 /* test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		A4BB6E6229DE5AD1007B4902 /* 230406 exam Euclid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230406 exam Euclid"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BB6E6529DE5AD1007B4902 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A4BB6E6C29DE5B00007B4902 /* euclid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = euclid.h; sourceTree = "<group>"; };
+		A4BB6E6D29DE5B00007B4902 /* euclid.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = euclid.c; sourceTree = "<group>"; };
+		A4BB6E6F29DE5B12007B4902 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				A4BB6E6529DE5AD1007B4902 /* main.c */,
+				A4BB6E6C29DE5B00007B4902 /* euclid.h */,
+				A4BB6E6F29DE5B12007B4902 /* test.c */,
+				A4BB6E6D29DE5B00007B4902 /* euclid.c */,
 			);
 			path = "230406 exam Euclid";
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BB6E7029DE5B12007B4902 /* test.c in Sources */,
 				A4BB6E6629DE5AD1007B4902 /* main.c in Sources */,
+				A4BB6E6E29DE5B00007B4902 /* euclid.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
