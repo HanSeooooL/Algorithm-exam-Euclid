@@ -15,3 +15,4 @@ int euclidloop(int a, int b);
 void TC_euclid(void);
 void TCJ(int *a, int *b, int *res);
 void TCl(int *a, int *b, int *res);
+void checktime(int (*func)(int, int), int *a, int *b, int *res);
