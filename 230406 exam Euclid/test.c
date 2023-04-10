@@ -9,7 +9,8 @@
 
 #define MAX 1000
 
-
+// TC_Euclid
+// 임의의 술단지의 수를 함수로 보내 최소 필요한 사람의 수를 반환받아 출력한다.
 void TC_euclid(void)
 {
     int a[MAX], b[MAX], arrayl[MAX], arrayj[MAX], i;
@@ -26,14 +27,14 @@ void TC_euclid(void)
     printf("재귀를 이용한 최대공약수 계산에 걸리는 시간은 ");
     checktime(euclidjaegui, a, b, arrayj);
     printf("계산 결과를 서로 비교했을 때 틀린 횟수는 ");
-    for(i = 0; i < MAX; i++) {
-        if(arrayl[i] != arrayj[i])
-            n += 1;
+    for(i = 0; i < MAX; i++) {  //각각의 배열에 결과값이 저장되어 있으므로
+        if(arrayl[i] != arrayj[i])  //서로 다르면
+            n += 1; //다른 횟수 추가
     }
     printf("%d회입니다.\n", n);
-    
 }
 
+//시간 체크 함수
 void checktime(int (*func)(int, int), int *a, int *b, int *res)   //인자로 받은 함수가 실행되는 시간을 출력해주는 함수
 {
     clock_t start, finish; //clock_t : clock t의 자료를 담고 있는 자료형. clock()의 반환(return)형
